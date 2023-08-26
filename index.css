@@ -19,9 +19,11 @@
 }
 
 /*Global font for paragraphs*/
+
 p{
   font-family: myFont2;
 }
+
 
 /*Navigation bar*/
 .div_navbar{
@@ -39,15 +41,16 @@ p{
   background-color: #000000;
   color: white;
   position: sticky;
+  font-weight: 400;
 }
 
 .navlist{
   display: flex;
   justify-content: inherit;
   list-style: none;
-  gap: 1rem;
-  font-style: normal;
-  color: white;
+  gap: 2rem;
+  font-weight: inherit;
+  font-family: inherit;
 }
 
 .navigation_item{
@@ -58,7 +61,7 @@ p{
 }
 
 .body {
-  background-color:#75bcff;
+  background-color:#0077e6;
   margin: 0;
   
 }
@@ -69,27 +72,34 @@ p{
   padding: 0px;
   justify-content: center;
   overflow:visible;
-  margin-top: 150px;
+  margin-top: 200px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 140px;
+  margin-bottom: 200px;
   max-height: 100vh;
 }
 
-.about_container{
-
-  display: inline;  
-  padding: 10px;
-  justify-content: center;
-  align-content: center;
-  margin-left:auto;
-  margin-right:auto;
-
-
-
-
-
+.hero_text{
+  padding: 20px;
+  font-family: myFont;
+  color: white;
+  border-style:solid;
+  font-size: 60%;
+  border-radius: 20px;
+  background-size: 10px;
+  background-color: rgb(0, 95, 0);
+  
 }
 
+
+.about_container{
+  justify-content: center;
+  align-content: center;
+  margin: 50vh 20vh !important;
+  font-family: Arial, Black, sans-serif;
+  border-style: dashed;
+  padding: 50px;
+  border-radius: 60px;
+}
 
 
