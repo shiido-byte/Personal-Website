@@ -1,0 +1,95 @@
+@font-face {
+  font-family: myFont;
+  src: url(Azo\ Sans\ Uber\ W01\ Regular.ttf);
+}
+
+@font-face{
+  font-family: myFont2;
+  src: url(Courier\ Std\ Medium.otf)
+}
+
+
+#root{
+  font-size: large;
+}
+
+/* Global box sizing */
+*{
+  box-sizing: border-box;
+}
+
+/*Global font for paragraphs*/
+p{
+  font-family: myFont2;
+}
+
+/*Navigation bar*/
+.div_navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 35px;  
+  padding-bottom: 35px;
+  height: 8px;
+  max-width: 500%;
+  font-family: myFont;
+  font-size: 20px;
+  background-color: #000000;
+  color: white;
+  position: sticky;
+}
+
+.navlist{
+  display: flex;
+  justify-content: inherit;
+  list-style: none;
+  gap: 1rem;
+  font-style: normal;
+  color: white;
+}
+
+.navigation_item{
+  font-style: inherit;
+  color: white;
+  text-decoration: inherit;
+
+}
+
+.body {
+  background-color:#75bcff;
+  margin: 0;
+  
+}
+
+.hero {
+  display: flex;
+  font-size: 80px;
+  padding: 0px;
+  justify-content: center;
+  overflow:visible;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 140px;
+  max-height: 100vh;
+}
+
+.about_container{
+
+  display: inline;  
+  padding: 10px;
+  justify-content: center;
+  align-content: center;
+  margin-left:auto;
+  margin-right:auto;
+
+
+
+
+
+}
+
+
+
