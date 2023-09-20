@@ -97,10 +97,12 @@ hr{
   background-size: 10px;
   background-color: rgb(0, 95, 0);
   max-height: 100vh;
+  box-shadow: 10px 20px 30px #000000;
 }
 
 .about_img_container{
   display: flex;
+  justify-content: space-between;
   border-style: 10px solid black;
   width: 100px;
   height: 200px;
@@ -108,18 +110,37 @@ hr{
   padding: 20px;
 }
 
-.about_container{
+.about_section{
   display: flex;
-  justify-content: center;
-  align-content: center;
+  align-content: space-between;
   margin: 40vh 20vh !important;
+  gap: 10vh;
+
+
+}
+.about_container{
+  flex-wrap: wrap;
+  align-content: center;
   font-family: Arial, Black, sans-serif;
   border-style:solid;
+  color: black;
   padding: 40px;
   border-radius: 30px;
+  background-color: rgb(221, 196, 163);
+  box-shadow: 20px 14px 40px #000000;
+  position: static;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
 }
 
+.about_img{  
+  width: 400pt;
+  border-radius: 31px 32px 37px 39px;
+  border-style: dashed;
+  
 
+}
 
 
 /*.about_text{
